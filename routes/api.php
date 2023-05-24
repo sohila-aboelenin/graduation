@@ -51,7 +51,6 @@ Route::controller(IotController::class)->group(function (){
 
 Route::controller(AiController::class)->group(function (){
     Route::post('/Ai','storeing');
-    Route::get('/Iot','show');
     Route::get('/Ai_mobile','showing');
 });
 
